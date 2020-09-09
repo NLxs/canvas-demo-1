@@ -2,9 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* body 默认不会占满屏幕 */
 }
 
 #canvas {
-  height: 100vh; /*和屏幕一样高*/
-  border: 1px solid red;
+  /* width: 100vw; */ /*和屏幕一样宽*/
+  /* height: 100vh; */ /*和屏幕一样高*/
+  display: block;
+  /* border: 1px solid red; */
 }
